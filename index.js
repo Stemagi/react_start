@@ -1,13 +1,13 @@
-function MainContent() {
-  return(
+const cloud =(
+  <nav>
     <h1>
-      Im learning React!
+      Inroduce new hookah
     </h1>
-  )
-}
-ReactDOM.render(
-  <div>
-    <MainContent />
-  </div>,
-  document.querySelector("#root")
+    <ul>
+      <li>About</li>
+      <li>pricing</li>
+      <li>contact</li>
+    </ul>
+  </nav>
 )
+ReactDOM.render(cloud,document.getElementById("root"))
