@@ -1,8 +1,13 @@
 function Header() {
   return (
     <header>
-      <nav>
-        <img src="./react-logo.png" width="70px" />
+      <nav className="nav">
+        <img src="./react-logo.png" className="img" />
+        <ul className="nav-items">
+          <li>Pricing</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
       </nav>
     </header>
   );
@@ -20,7 +25,7 @@ function MainContent() {
 }
 function Footer() {
   return (
-    <footer>
+    <footer className="footer">
       <small>© 20xx Krivko development. All rights reserved.</small>
     </footer>
   );
