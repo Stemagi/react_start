@@ -1,13 +1,14 @@
-const cloud =(
-  <nav>
-    <h1>
-      Inroduce new hookah
-    </h1>
+const page= (
+    <div>
+    <img src="./react-logo.png" width="40px" />
+    <h1>Fun Facts about React</h1>
     <ul>
-      <li>About</li>
-      <li>pricing</li>
-      <li>contact</li>
+        <li>was realeased in 2013</li>
+        <li>was originaly</li>
+        <li>choto tam</li>
+        <li>i vashe top</li>
+        <li>veselo uchit</li>
     </ul>
-  </nav>
+    </div>
 )
-ReactDOM.render(cloud,document.getElementById("root"))
+ReactDOM.render(page, document.getElementById("root"))
